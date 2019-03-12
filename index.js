@@ -12,7 +12,7 @@ function increaseRankBy(n) {
   for (let i = 0; i < list.length; i++) {
     list[i].innerHTML = (parseInt([i]) + n);
   }
-  console.log(list)
+  console.log(ranked-list)
 }
 
 function deepestChild() {
